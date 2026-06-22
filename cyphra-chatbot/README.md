@@ -89,7 +89,7 @@ Follow these steps to set up and run the Cyphra platform locally.
 ### 4. Configure Environment Variables
    Create a `.env` file in the root directory of your project. This file will store sensitive information and configuration settings.
    ```env
-   CYPHRA_SECRET_KEY=your_very_long_and_secure_random_string
+   CYPHRA_SECRET_KEY=your_secure_string
    MONGO_URI=mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<database-name>?retryWrites=true&w=majority
    ```
    -   **`CYPHRA_SECRET_KEY`**: Replace `your_very_long_and_secure_random_string` with a strong, randomly generated key. This is crucial for session security. You can generate one using Python: `import os; os.urandom(24).hex()`.
@@ -144,3 +144,5 @@ Created as a learning project for understanding chatbots, Flask, and web develop
 
 ---
 **Cyphra** - Modernizing rule-based conversational interfaces.
+
+https://cyphra--chatbot.vercel.app
