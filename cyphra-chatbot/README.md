@@ -1,4 +1,6 @@
-# Cyphra - Dynamic Conversational Architecture
+# Cyphra - Dynamic Conversational Architecture (CHATBOT WITH RULE-BASED RESPONSES)
+
+https://cyphra--chatbot.vercel.app/
 
 Cyphra is a sophisticated, conversational platform engineered with a Python Flask backend and a reactive, frontend. It leverages a custom-built, compiled regular expression engine to deliver low-latency, context-aware responses driven by a modular JSON intelligence matrix, supported by secure cloud-based identity management.
 
@@ -144,5 +146,3 @@ Created as a learning project for understanding chatbots, Flask, and web develop
 
 ---
 **Cyphra** - Modernizing rule-based conversational interfaces.
-
-https://cyphra--chatbot.vercel.app
